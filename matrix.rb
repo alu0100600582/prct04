@@ -1,6 +1,7 @@
 #Suma de dos matrices
 
-#! /usr/bin/ruby	
+#! /usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
+	
 
 x = [[2,4,2],[1,6,0],[4,2,3]]  #matriz x
 y = [[0,2,3],[5,3,0],[2,2,2]]  #matriz y
