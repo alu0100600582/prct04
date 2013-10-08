@@ -36,8 +36,6 @@ c.each do |fila|
   puts fila.join(" ")
 end
 
-#Multiplicacion de las Matrices
-
 for i in 0...m do
   c[i]=Array.new
     for j in 0...n do
