@@ -1,4 +1,4 @@
-#Suma de dos matrices
+#Suma de dos matrices cuadradas
 
 #! /usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 	
