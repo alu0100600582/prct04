@@ -37,13 +37,6 @@ c.each do |fila|
   puts fila.join(" ")
 end
 
-<<<<<<< HEAD
-
-#Multiplicacion de dos matrices
-
-=======
-#Multiplicacion de las Matrices
->>>>>>> Fran
 
 for i in 0...m do
   c[i]=Array.new
@@ -55,18 +48,12 @@ end
 for i in 0...m do
   for j in 0...n do
     for z in 0...m do
-<<<<<<< HEAD
+
       c[i][j] += a[i][z] + b[z][j]
      end
    end
  end  
 
-=======
-      c[i][j]+= a[i][z] * b[z][j]
-    end  
-  end
-end
->>>>>>> Fran
 
 puts "\n La Multiplicacion de la Matriz a y b es ="
 c.each do |fila|
