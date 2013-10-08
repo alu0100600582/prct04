@@ -1,7 +1,6 @@
 #Suma de dos matrices
 
-#! /usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
-	
+#! /usr/bin/ruby	
 
 a = [[2,4,2],[1,6,0],[4,2,3]]  #matriz a
 b = [[0,2,3],[5,3,0],[2,2,2]]  #matriz b
@@ -37,14 +36,6 @@ c.each do |fila|
   puts fila.join(" ")
 end
 
-<<<<<<< HEAD
-
-#Multiplicacion de dos matrices
-
-=======
-#Multiplicacion de las Matrices
->>>>>>> Fran
-
 for i in 0...m do
   c[i]=Array.new
     for j in 0...n do
@@ -55,18 +46,10 @@ end
 for i in 0...m do
   for j in 0...n do
     for z in 0...m do
-<<<<<<< HEAD
-      c[i][j] += a[i][z] + b[z][j]
-     end
-   end
- end  
-
-=======
       c[i][j]+= a[i][z] * b[z][j]
     end  
   end
 end
->>>>>>> Fran
 
 puts "\n La Multiplicacion de la Matriz a y b es ="
 c.each do |fila|
